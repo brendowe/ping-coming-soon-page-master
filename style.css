@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte: "Libre Franklin", sans-serif;
+}
+
 body {
     height: 96vh;
     display: flex;
@@ -7,16 +13,35 @@ body {
     align-items: center;
     margin: 0;
     justify-content: space-between;
+    color: hsl(0, 0%, 59%);
+    font-family: var(--fonte);
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 }
 
 main img {
     height: 230px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h1, #logo {
+    color: black;
 }
 
 #container {
@@ -39,7 +64,7 @@ main img {
     height: 44px;
     border-radius: 20px;
     padding: 0;
-    background-color: cornflowerblue;
+    background-color: hsl(223, 87%, 63%);
     color: white;
     border: 0px;
 }
@@ -49,6 +74,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: 12px;
 }
 
 footer img {
