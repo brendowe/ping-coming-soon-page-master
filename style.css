@@ -26,7 +26,7 @@ main {
 
 main img {
     max-height: 60%;
-    max-width: 70%;
+    max-width: 80%;
 }
 
 h1 {
@@ -52,7 +52,7 @@ h1, #logo {
 
 #sd  {
     display: flex;
-    width: 550px;
+    width: auto;
     height: 60px;
     margin-top: -15px;
 }
